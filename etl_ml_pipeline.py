@@ -10,7 +10,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 
 # Load the dataset
-data = pd.read_csv('sold_flats_2020-09-30.csv')  # Make sure to replace 'path_to_your_data.csv' with your actual data path
+data = pd.read_csv('sold_items_history.csv')  # Make sure to replace 'path_to_your_data.csv' with your actual data path
 
 # Display the first few rows of the dataframe
 data.head()
